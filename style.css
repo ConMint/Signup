@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+.container {
+    margin: 0;
+    
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+
+
+.imageSide{
+    
+    width: 40%;
+    background-image: url("pop.webp");
+    
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    
+    
+    
+}
+
+#odinFace {
+    
+    height: 90%;
+    
+}
+
+#bigText {
+    font-size: 120px;
+    font-family: 'FlamingoRegular';
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+.textBar {
+    margin-top: 111px;
+    height: 150px;
+    
+    background: rgba(3, 183, 243, 0.3);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logInSide {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: -5px;
+}
+
+.credit {
+    position: fixed;
+    bottom: 10px;
+    color: whitesmoke;
+    
+    
+}
+
+a {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+
+
+a:hover {
+    cursor: pointer;
+}
+.top, .middle, .bottom {
+    
+    width: 100vw;
+    padding-left: 100px;
+    margin-left: 0;
+}
+
+.top {
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: rgb(253, 249, 249);
+    
+    
+}
+
+p {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#toptext {
+    
+    max-width: 650px;
+}
+
+.middle {
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    height: 30vh;
+    background-color: rgb(253, 249, 249);
+}
+
+#letsDo {
+    margin-top: 20px;
+}
+
+input {
+    max-width: 100px;
+}
