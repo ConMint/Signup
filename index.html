@@ -23,22 +23,55 @@
                 </p>
                 <p>You <em>know</em> you want to.</p>
             </div>
-            <form>
                 <div class="middle">
                     <div id="letsDo">Let's do this!</div>
-                    <label for="example">Let's submit some text</label>
-                    <input id="example" type="text" name="text" placeholder="boaby">
+
+                    <form id="daForm" action="#">
+                        <div class="col1">
+                            <div class="input">
+                                <label  for= "firstName">FIRST NAME</label>
+                                <input  id= "firstName" type="text" required>
+                            </div>
+                            <div class="input">
+                                <label for="emailAdd">EMAIL</label>
+                                <input id="emailAdd" type="email" placeholder="example@example.com" required>
+                            </div>
+                            <div class="input">
+                                <label for="password">PASSWORD</label>
+                                <input id="password" type="password" required minlength="8">
+                            </div>
+                            
+                        </div>
+                        <div class="col2">
+                            <div class="input">
+                                <label  for= "lastName">LAST NAME</label>
+                                <input  id= "lastName" type="text" required>
+                            </div>
+                            <div class="input">
+                                <label for="phoneNum">PHONE NUMBER</label>
+                                <input id="phoneNum" type="text" required>
+                            </div>
+                            <div class="input">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input id="confirmPassword" type="password" required minlength="8">
+                            </div>
+                        </div>
+                        <button id = "resetButton" form="daForm" type="reset">Reset</button>
+                    </form>
                 </div>
                 <div class="bottom">
-                    <input type="reset">
+                    <button id = "submitButton" form="daForm" type="submit">Create Account</button>
+                    <div class="alreadyText">Already have an account? <a id="logIn">Log in</a></div>
+                    <div class="rightFooter">Connor Minto 2022</div>
+                    
                 </div>
-            </form>
+
 
         </div>
     </div>
     
                                 
     
-    
+<script src="script.js"></script>    
 </body>
 </html>
